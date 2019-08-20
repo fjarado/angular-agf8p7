@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { HelloComponent } from './hello.component';
   ],
   declarations: [
     AppComponent,
-    HelloComponent
+    HelloComponent,
+    HeaderComponent
   ],
   bootstrap: [
     AppComponent
