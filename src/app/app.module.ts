@@ -14,7 +14,7 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     AppComponent,
     HelloComponent,
-    HeaderComponent
+    HeaderComposnent
   ],
   bootstrap: [
     AppComponent
