@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
+import { RecipesCompponent } from '/recipes/recipes.component';
+
 
 @NgModule({
   imports: [
@@ -14,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     AppComponent,
     HelloComponent,
-    HeaderComponent
+    HeaderComponent,
+    RecipesComponent
   ],
   bootstrap: [
     AppComponent
