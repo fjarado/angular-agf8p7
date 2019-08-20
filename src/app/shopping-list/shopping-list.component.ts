@@ -1,7 +1,7 @@
-import { Component } from '@angulsr/core';
+import { Component } from '@angular/core';
 
 @Component({
-  
+
 })
 
 export class ShoppingListComponent {
