@@ -10,7 +10,7 @@ import { Recipe } from '../recipe.model';
 
 export class RecipeListComponent {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simple a test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
-    new Recipe('A Test Recipe', 'This is simple a test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
+    new Recipe('A first Test Recipe', 'This is the first simple a test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
+    new Recipe('A second Test Recipe', 'This is the second simple a test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
   ];
 }
